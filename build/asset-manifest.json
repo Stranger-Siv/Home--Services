@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Home--Services/static/css/main.9aa18ac2.css",
+    "main.js": "/Home--Services/static/js/main.73da6e35.js",
+    "static/media/service.jpeg": "/Home--Services/static/media/service.b0caa7a5fed00e0c7551.jpeg",
+    "static/media/signup.png": "/Home--Services/static/media/signup.b431d919de01b6515dd6.png",
+    "static/media/login.png": "/Home--Services/static/media/login.4d877a447365e5137b67.png",
+    "static/media/cleaner.jpeg": "/Home--Services/static/media/cleaner.f23e7151ca26a50f1031.jpeg",
+    "static/media/salon2.jpeg": "/Home--Services/static/media/salon2.53114b017f7d992eb789.jpeg",
+    "static/media/salonm.jpeg": "/Home--Services/static/media/salonm.21175784ce58c112f6db.jpeg",
+    "static/media/massage.jpeg": "/Home--Services/static/media/massage.844383bfa5aaa1e77c05.jpeg",
+    "static/media/cleaning2.jpeg": "/Home--Services/static/media/cleaning2.d49334be1e85accf39df.jpeg",
+    "static/media/repair.webp": "/Home--Services/static/media/repair.3747dfbe2af2d0cb7f9c.webp",
+    "static/media/electricin.jpeg": "/Home--Services/static/media/electricin.1485e87dcb4d561dfc7b.jpeg",
+    "static/media/logo-no-background.png": "/Home--Services/static/media/logo-no-background.a093893461e9937a2ec2.png",
+    "static/media/repair2.webp": "/Home--Services/static/media/repair2.ccf2775dd2c89953ec23.webp",
+    "static/media/frame.png": "/Home--Services/static/media/frame.3a238e5f26d676376e1d.png",
+    "static/media/contact.jpeg": "/Home--Services/static/media/contact.c7398d131e3bc9146427.jpeg",
+    "static/media/service.avif": "/Home--Services/static/media/service.d083b16242f2126102b8.avif",
+    "static/media/painting.jpeg": "/Home--Services/static/media/painting.e8c62f2dd889502bc9ba.jpeg",
+    "static/media/salon.avif": "/Home--Services/static/media/salon.63a88bed096936b0134a.avif",
+    "index.html": "/Home--Services/index.html",
+    "main.9aa18ac2.css.map": "/Home--Services/static/css/main.9aa18ac2.css.map",
+    "main.73da6e35.js.map": "/Home--Services/static/js/main.73da6e35.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9aa18ac2.css",
+    "static/js/main.73da6e35.js"
+  ]
+}
