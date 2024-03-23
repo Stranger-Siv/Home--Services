@@ -158,7 +158,7 @@ const Dashboard = () => {
 
       <div className='flex text-white text-3xl ml-[135px] mr-[135px]'>
         <div className='mt-10'>
-          <h1 className='text-richblack-200'>Message for Men</h1>
+          <h1 className='text-richblack-200'>Message for men</h1>
           <div className='flex flex-row gap-5 '>
             <div>
               <img src={mm2} className='w-[274px] h-[215px] mt-10 rounded-lg hover:scale-105 cursor-pointer' />

@@ -28,7 +28,7 @@ const LoginForm = ({setIsLoggedIn}) => {
     function submitHandler(event) {
         event.preventDefault();
         setIsLoggedIn(true);
-        toast.success("Logged In");
+        toast.success("Welcome");
         console.log("Printing the formData ");
         console.log(formData)
         navigate("/dashboard");
