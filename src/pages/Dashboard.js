@@ -25,14 +25,6 @@ import m3 from "../assets/m3.jpeg"
 import m4 from "../assets/m4.jpeg"
 
 
-
-
-
-
-
-
-
-
 const Dashboard = () => {
   return (
     <div className='bg-richblack-900 '>
