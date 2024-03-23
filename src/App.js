@@ -10,6 +10,8 @@ import { useEffect, useState } from 'react'
 import PrivateRoute from "./components/PrivateRoute";
 import Contact from "./pages/Contact";
 import Product from "./pages/Product";
+import ProductTemp from "./components/ProductTemp";
+
 
 function App() {
 
@@ -33,7 +35,12 @@ function App() {
         } />
         <Route path="/about" element= {<About/>} />
         <Route path="/contact" element= {<Contact/>} />
-        <Route path="/productPage" element= {<Product/>} />
+        <Route path="/productPage" element= {
+           <PrivateRoute isLoggedIn={isLoggedIn}>
+              <Product/>
+           </PrivateRoute>
+        } />
+        <Route path="/temp" element={<ProductTemp/>}/>
 
       </Routes>
     </div>
