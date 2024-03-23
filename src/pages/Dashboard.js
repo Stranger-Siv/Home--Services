@@ -47,11 +47,11 @@ const Dashboard = () => {
           <div className='flex flex-row gap-5 '>
             <div>
               <img src={image1} className='w-[400px] h-[230px] mt-10 rounded-lg hover:scale-105 cursor-pointer' />
-              <h1 className='text-richblack-100 text-xl mt-5 '>Native Smart Locks</h1>
+              <h1 className='text-richblack-100 text-xl mt-5 '>Smart Locks</h1>
             </div>
             <div>
               <img src={nn1} className='w-[400px] h-[230px] mt-10 rounded-lg hover:scale-105 cursor-pointer' />
-              <h1 className='text-richblack-100 text-xl mt-5 '>Native Water Purifier</h1>
+              <h1 className='text-richblack-100 text-xl mt-5 '>Water Purifier</h1>
             </div>
             <div>
               <img src={nn2} className='w-[400px] h-[230px] mt-10 rounded-lg hover:scale-105 cursor-pointer' />
@@ -256,7 +256,7 @@ const Dashboard = () => {
         </div>
 
       <div className='ml-[135px] mr-[135px] text-richblack-100 mt-10'>
-        __________________________________________________________________________________________________________________________________________
+        ___________________________________________________________________________________________________________________________________________
       </div>
       <div>
         <h1 className='text-richblack-200 text-md mt-8 ml-[135px]' > © Copyright 2022 Home Service. All rights reserved.</h1>
