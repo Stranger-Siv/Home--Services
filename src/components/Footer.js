@@ -17,7 +17,7 @@ const Footer = () => {
         <div className='flex flex-row gap-[125px] text-richblack-100 pt-9 mr-[135px]'>
           <div className='ml-[135px]'>
             <h1 className='text-white text-xl'>Company</h1>
-            <div className='mt-4 text-lg leading-7'>
+            <div className='mt-4 text-md leading-7'>
               <h2 className='hover:cursor-pointer'>About us</h2>
               <h2 className='hover:cursor-pointer'>Terms & Conditions</h2>
               <h2 className='hover:cursor-pointer'>Privacy Policy</h2>
@@ -29,7 +29,7 @@ const Footer = () => {
 
           <div className=''>
             <h1 className='text-white text-xl'>For customers</h1>
-            <div className='mt-4 text-lg leading-7'>
+            <div className='mt-4 text-md leading-7'>
               <h2 className='hover:cursor-pointer'>UC reviews</h2>
               <h2 className='hover:cursor-pointer'>Categories near you</h2>
               <h2 className='hover:cursor-pointer'>Blog</h2>
@@ -39,7 +39,7 @@ const Footer = () => {
 
           <div className=''>
             <h1 className='text-white text-xl'>For partners</h1>
-            <div className='mt-4 text-lg leading-7'>
+            <div className='mt-4 text-mg leading-7'>
               <h2 className='hover:cursor-pointer'>Register as a professional</h2>
             </div>
           </div>
