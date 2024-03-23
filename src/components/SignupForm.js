@@ -55,11 +55,8 @@ const SignupForm = ({setIsLoggedIn}) => {
 
 
   return (
-    <div className='mb-4'>
-        {/* student-Instructor tab */}
-        <div
-        className='flex bg-richblack-800 p-1 pb-1 gap-x-1 my-6 rounded-full max-w-max '>
-
+    <div className=''>
+        <div className='flex bg-richblack-800 p-1 pb-1 gap-x-1 my-6 rounded-full max-w-max hidden'>
             <button
             className={`${accountType === "student" 
             ?
@@ -80,7 +77,6 @@ const SignupForm = ({setIsLoggedIn}) => {
         </div>
 
         <form onSubmit={submitHandler} >
-        {/* first name and lastName */}
             <div className='flex gap-x-4 mt-[20px]'>
                     <label className='w-full'>
                         <p className='text-[0.875rem] text-richblack-5 mb-1 leading-[1.375rem]'>First Name<sup className='text-pink-200'>*</sup></p>
