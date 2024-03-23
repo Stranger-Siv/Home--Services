@@ -9,6 +9,7 @@ import Dashboard from "./pages/Dashboard"
 import { useEffect, useState } from 'react'
 import PrivateRoute from "./components/PrivateRoute";
 import Contact from "./pages/Contact";
+import Product from "./pages/Product";
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
         } />
         <Route path="/about" element= {<About/>} />
         <Route path="/contact" element= {<Contact/>} />
+        <Route path="/productPage" element= {<Product/>} />
 
       </Routes>
     </div>
