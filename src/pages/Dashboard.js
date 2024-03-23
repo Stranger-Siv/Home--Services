@@ -23,6 +23,7 @@ import g1 from "../assets/g1.jpeg"
 import m2 from "../assets/m2.jpeg"
 import m3 from "../assets/m3.jpeg"
 import m4 from "../assets/m4.jpeg"
+import { Link } from 'react-router-dom'
 
 
 const Dashboard = () => {
@@ -32,22 +33,30 @@ const Dashboard = () => {
         <div className='mt-10'>
           <h1 className='text-richblack-200'>New and noteworthy</h1>
           <div className='flex flex-row gap-5 '>
-            <div>
-              <img src={image1} className='w-[400px] h-[230px] mt-10 rounded-lg hover:scale-105 cursor-pointer' />
-              <h1 className='text-richblack-100 text-xl mt-5 '>Smart Locks</h1>
-            </div>
+            <Link to="/productPage">
+              <div>
+                <img src={image1} className='w-[400px] h-[230px] mt-10 rounded-lg hover:scale-105 cursor-pointer' />
+                <h1 className='text-richblack-100 text-xl mt-5 '>Smart Locks</h1>
+              </div>
+            </Link>
+            <Link to="/productPage">
             <div>
               <img src={nn1} className='w-[400px] h-[230px] mt-10 rounded-lg hover:scale-105 cursor-pointer' />
               <h1 className='text-richblack-100 text-xl mt-5 '>Water Purifier</h1>
             </div>
+            </Link>
+            <Link to="/productPage">
             <div>
               <img src={nn2} className='w-[400px] h-[230px] mt-10 rounded-lg hover:scale-105 cursor-pointer' />
               <h1 className='text-richblack-100 text-xl mt-5 '>Home Painting</h1>
             </div>
+            </Link>
+            <Link to="/productPage">
             <div>
               <img src={nn3} className='w-[400px] h-[230px] mt-10 rounded-lg hover:scale-105 cursor-pointer' />
               <h1 className='text-richblack-100 text-xl mt-5 '>Furniture Assembly</h1>
             </div>
+            </Link>
           </div>
         </div>
       </div>
@@ -56,22 +65,30 @@ const Dashboard = () => {
         <div className='mt-10'>
           <h1 className='text-richblack-200'>Most booked services</h1>
           <div className='flex flex-row gap-5 '>
+            <Link to="/productPage">
             <div>
               <img src={mbs1} className='w-[400px] h-[230px] mt-10 rounded-lg hover:scale-105 cursor-pointer' />
               <h1 className='text-richblack-100 text-xl mt-5 '>Bathroom Cleaning</h1>
             </div>
+            </Link>
+            <Link to="/productPage">
             <div>
               <img src={mbs2} className='w-[400px] h-[230px] mt-10 rounded-lg hover:scale-105 cursor-pointer' />
               <h1 className='text-richblack-100 text-xl mt-5 '>Sofa Cleaning</h1>
             </div>
+            </Link>
+            <Link to="/productPage">
             <div>
               <img src={mbs3} className='w-[400px] h-[230px] mt-10 rounded-lg hover:scale-105 cursor-pointer' />
               <h1 className='text-richblack-100 text-xl mt-5 '>AC Service</h1>
             </div>
+            </Link>
+            <Link to="/productPage">
             <div>
               <img src={mbs4} className='w-[400px] h-[230px] mt-10 rounded-lg hover:scale-105 cursor-pointer' />
               <h1 className='text-richblack-100 text-xl mt-5 '>Pedicure</h1>
             </div>
+            </Link>
           </div>
         </div>
       </div>
@@ -79,18 +96,24 @@ const Dashboard = () => {
         <div className='mt-10'>
           <h1 className='text-richblack-200'>Salon for women</h1>
           <div className='flex flex-row gap-5 '>
+            <Link to="/productPage">
             <div>
               <img src={sw1} className='w-[274px] h-[215px] mt-10 rounded-lg hover:scale-105 cursor-pointer' />
               <h1 className='text-richblack-100 text-xl mt-5 '>Waxing</h1>
             </div>
+            </Link>
+            <Link to="/productPage">
             <div>
               <img src={mbs4} className='w-[274px] h-[215px] mt-10 rounded-lg hover:scale-105 cursor-pointer' />
               <h1 className='text-richblack-100 text-xl mt-5 '>Pedicure</h1>
             </div>
+            </Link>
+            <Link to="/productPage">
             <div>
               <img src={sw3} className='w-[274px] h-[215px] mt-10 rounded-lg hover:scale-105 cursor-pointer' />
               <h1 className='text-richblack-100 text-xl mt-5 '>Facial & Cleanup</h1>
             </div>
+            </Link>
 
           </div>
         </div>
@@ -99,22 +122,30 @@ const Dashboard = () => {
         <div className='mt-10'>
           <h1 className='text-richblack-200'>Quick home repairs</h1>
           <div className='flex flex-row gap-5 '>
+            <Link to="/productPage">
             <div>
               <img src={qhr1} className='w-[400px] h-[230px] mt-10 rounded-lg hover:scale-105 cursor-pointer' />
               <h1 className='text-richblack-100 text-xl mt-5 '>Tap Repair</h1>
             </div>
+            </Link>
+            <Link to="/productPage">
             <div>
               <img src={qhr2} className='w-[400px] h-[230px] mt-10 rounded-lg hover:scale-105 cursor-pointer' />
               <h1 className='text-richblack-100 text-xl mt-5 '>Fan Repair</h1>
             </div>
+            </Link>
+            <Link to="/productPage">
             <div>
               <img src={qhr3} className='w-[400px] h-[230px] mt-10 rounded-lg hover:scale-105 cursor-pointer' />
               <h1 className='text-richblack-100 text-xl mt-5 '>Switch/Socket Replacement</h1>
             </div>
+            </Link>
+            <Link to="/productPage">
             <div>
               <img src={qhr4} className='w-[400px] h-[230px] mt-10 rounded-lg hover:scale-105 cursor-pointer' />
               <h1 className='text-richblack-100 text-xl mt-5 '>Drill & Hang</h1>
             </div>
+            </Link>
           </div>
         </div>
       </div>
@@ -123,22 +154,30 @@ const Dashboard = () => {
         <div className='mt-10'>
           <h1 className='text-richblack-200'>AC & appliance repair</h1>
           <div className='flex flex-row gap-5 '>
+            <Link to="/productPage">
             <div>
               <img src={mbs3} className='w-[274px] h-[215px] mt-10 rounded-lg hover:scale-105 cursor-pointer' />
               <h1 className='text-richblack-100 text-xl mt-5 '>AC Repair</h1>
             </div>
+            </Link>
+            <Link to="/productPage">
             <div>
               <img src={ar2} className='w-[274px] h-[215px] mt-10 rounded-lg hover:scale-105 cursor-pointer' />
               <h1 className='text-richblack-100 text-xl mt-5 '>Washing Machine Repair</h1>
             </div>
-            <div>
+            </Link>
+           <Link to="/productPage">
+           <div>
               <img src={ar3} className='w-[274px] h-[215px] mt-10 rounded-lg hover:scale-105 cursor-pointer' />
               <h1 className='text-richblack-100 text-xl mt-5 '>refrigerator Repair</h1>
             </div>
+           </Link>
+            <Link to="/productPage">
             <div>
               <img src={ar4} className='w-[274px] h-[215px] mt-10 rounded-lg hover:scale-105 cursor-pointer' />
               <h1 className='text-richblack-100 text-xl mt-5 '>Microwave Repair</h1>
             </div>
+            </Link>
           </div>
         </div>
       </div>
@@ -147,14 +186,18 @@ const Dashboard = () => {
         <div className='mt-10'>
           <h1 className='text-richblack-200'>Message for men</h1>
           <div className='flex flex-row gap-5 '>
+            <Link to="/productPage">
             <div>
               <img src={mm2} className='w-[274px] h-[215px] mt-10 rounded-lg hover:scale-105 cursor-pointer' />
               <h1 className='text-richblack-100 text-xl mt-5 '>Pain Relief</h1>
             </div>
+            </Link>
+            <Link to="/productPage">
             <div>
               <img src={mm1} className='w-[274px] h-[215px] mt-10 rounded-lg hover:scale-105 cursor-pointer' />
               <h1 className='text-richblack-100 text-xl mt-5 '>Stress Relief</h1>
             </div>
+            </Link>
 
           </div>
         </div>
@@ -164,26 +207,34 @@ const Dashboard = () => {
         <div className='mt-10'>
           <h1 className='text-richblack-200'>Salon for kids & men</h1>
           <div className='flex flex-row gap-5 '>
+            <Link to="/productPage">
             <div>
               <img src={g1} className='w-[274px] h-[215px] mt-10 rounded-lg hover:scale-105 cursor-pointer' />
               <h1 className='text-richblack-100 text-xl mt-5 '>Haircut Grooming</h1>
             </div>
+            </Link>
+            <Link to="/productPage">
             <div>
               <img src={m2} className='w-[274px] h-[215px] mt-10 rounded-lg hover:scale-105 cursor-pointer' />
               <h1 className='text-richblack-100 text-xl mt-5 '>Facial & Cleanup</h1>
             </div>
+            </Link>
+            <Link to="/productPage">
             <div>
               <img src={m3} className='w-[274px] h-[215px] mt-10 rounded-lg hover:scale-105 cursor-pointer' />
               <h1 className='text-richblack-100 text-xl mt-5 '>Pedicure & Menicure</h1>
             </div>
+            </Link>
+            <Link to="/productPage">
             <div>
               <img src={m4} className='w-[274px] h-[215px] mt-10 rounded-lg hover:scale-105 cursor-pointer' />
               <h1 className='text-richblack-100 text-xl mt-5 '>Hair Color & Hair Spa</h1>
             </div>
+            </Link>
           </div>
         </div>
       </div>
-    <Footer />
+      <Footer />
     </div>
 
   )
