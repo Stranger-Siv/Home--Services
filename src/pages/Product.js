@@ -31,6 +31,7 @@ const Product = () => {
                                 <button className="border-2  text-richblack-100  text-md w-[80px] py-[5px] px-[5px] rounded-lg ml-8 mt-2 z-10 ">Add</button>
                             </div>
                         </div>
+                        
                         <div className="mt-10">------------------------------------------------------------------</div>
                     </div>
                 </div>
